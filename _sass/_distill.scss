@@ -19,6 +19,7 @@ d-article d-byline a {
 }
 
 d-article {
+  overflow-x: visible !important;
   border-top-color: var(--global-divider-color) !important;
   p,
   h1,
@@ -74,6 +75,10 @@ d-article {
     }
   }
 
+  hr {
+    width: 46%;
+  }
+
   d-contents {
     align-self: start;
     grid-column: 1 / 4;
@@ -85,6 +90,8 @@ d-article {
     border-right: 1px solid var(--global-divider-color);
     width: calc(max(70%, 300px));
     margin-right: 0px;
+    position: sticky;
+    top: 85px;
     margin-top: 0em;
     display: grid;
     grid-template-columns:
@@ -177,6 +184,7 @@ d-appendix {
       padding-top: 0.5em;
       width: 100%;
       border: 1px solid var(--global-divider-color);
+      position: static;
       nav {
         grid-column: none;
       }
