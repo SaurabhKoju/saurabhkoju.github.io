@@ -191,3 +191,10 @@ d-appendix {
     }
   }
 }
+
+d-article pre,
+d-article mjx-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
