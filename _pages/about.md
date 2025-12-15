@@ -8,13 +8,14 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
+  # cv: CV.pdf
   # more_info: >
     # <p>555 your office number</p>
     # <p>123 your address street</p>
     # <p>Your City, State 12345</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -27,12 +28,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I'm a computer engineering graduate and a research assistant at [NAAMII](https://www.naamii.org.np/). I work with [Dr. Binod Bhattarai](https://sites.google.com/view/bbinod/home) at the [Multimodal Learning Lab](https://sites.google.com/view/bbinod/team). \
+Hello! I'm a computer engineering graduate and a research assistant at [NAAMII](https://www.naamii.org.np/). I work with [Dr. Binod Bhattarai](https://sites.google.com/view/bbinod/home) at the Multimodal Learning Lab. \
 \
-My current research interests include World Models, Reinforcement Learning and generative modelling with limited data. Recently, I've been working on training Surgical World Models with learned latent actions. \
-  I enjoy exploring the theoretical aspects of machine learning, particularly in information theory, generalization, and planning. \
+My current research interests include world models, reinforcement learning and generative modeling with limited data. Recently, I've been working on improving the cross-context adaptability of latent actions learned through world models for surgical applications. I enjoy exploring the theoretical aspects of machine learning, particularly in information theory, generalization, and robustness. \
 \
-Research Interests: World Models, Reinforcement Learning, Generative Modelling
+**Research Interests**: World Models, Generalization and Robustness, Reinforcement Learning, Generative Modeling
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

@@ -208,7 +208,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .profile.float-left {
@@ -217,9 +217,14 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 23%;
 
     .address {
+      margin-bottom: 5px;
+      margin-top: 5px;
+      text-align: center;
+      font-family: monospace;
+      
       p {
         display: block;
       }
@@ -401,7 +406,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.5rem;
 
     a {
       img {
@@ -1416,4 +1421,19 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+/* Make CV link bold in navbar */
+.navbar a[href="/CV/"],
+.navbar a[href="/assets/pdf/CV.pdf"] {
+  font-weight: bold;
+  opacity: 0.85
+}
+
+/* Fix post meta, date, and tags inside tables in light mode with 80% opacity */
+html:not(.dark) .table-dark,
+html:not(.dark) .table-dark .post-meta,
+html:not(.dark) .table-dark .post-date,
+html:not(.dark) .table-dark .post-tags a {
+    color: var(--global-text-color-dark) !important;
 }
