@@ -55,4 +55,11 @@ ninja.data = [{
         handler: () => {
           window.open("https://www.linkedin.com/in/saurabh-koju-7a71aa208", "_blank");
         },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=zl1ICLIAAAAJ", "_blank");
+        },
       },];
