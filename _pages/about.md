@@ -28,11 +28,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I'm a computer engineering graduate and a research assistant at [NAAMII](https://www.naamii.org.np/). I work with [Dr. Binod Bhattarai](https://sites.google.com/view/bbinod/home) at the Multimodal Learning Lab. \
+Hello! I am a Master’s student in Artificial Intelligence & Machine Learning at TU Darmstadt. I previously worked as a research assistant at [NAAMII](https://www.naamii.org.np/) under the supervision of [Dr. Binod Bhattarai](https://sites.google.com/view/bbinod/home) at the Multimodal Learning Lab. \\
+My current research interests include world models, information theory and generative modeling. Recently, I've been working on improving the cross-context adaptability of latent actions learned through world models for surgical applications. \\
+I enjoy exploring the theoretical aspects of machine learning, particularly in information theory, generalization, and robustness. \
 \
-My current research interests include world models, reinforcement learning and generative modeling with limited data. Recently, I've been working on improving the cross-context adaptability of latent actions learned through world models for surgical applications. I enjoy exploring the theoretical aspects of machine learning, particularly in information theory, generalization, and robustness. \
-\
-**Research Interests**: World Models, Generalization and Robustness, Reinforcement Learning, Generative Modeling
+**Research Interests**: World Models, Generalization and Robustness, Information Theory, Generative Modeling
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
