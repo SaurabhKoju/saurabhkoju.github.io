@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/CV.pdf";
           },
-        },{id: "post-flow-matching",
+        },{id: "post-quaternions",
+        
+          title: "Quaternions",
+        
+        description: "A Linear Algebraic Approach to Quaternions",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/quaternions/";
+          
+        },
+      },{id: "post-flow-matching",
         
           title: "Flow Matching",
         
